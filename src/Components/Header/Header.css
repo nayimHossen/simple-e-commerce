@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 140px 0px 140px;
+    padding: 0px 120px 0px 120px;
 }
 
 .header a {
@@ -17,4 +17,14 @@
 
 .header a:hover {
     color: orange;
+}
+
+@media (max-width: 768px) {
+    .header {
+        justify-content: center;
+    }
+
+    .nav-links {
+        display: none;
+    }
 }
