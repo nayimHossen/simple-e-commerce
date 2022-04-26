@@ -1,0 +1,44 @@
+.product {
+    width: 300px;
+    height: 460px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    position: relative;
+}
+
+.product img {
+    height: 250px;
+    width: 286px;
+    margin: 7px;
+    border-radius: 10px;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    margin: 0px;
+}
+
+.product-info {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.product-info p {
+    line-height: 8px;
+}
+
+.main-button {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    padding: 10px;
+    background-color: goldenrod;
+}
+
+.main-button:hover {
+    background-color: rgb(235, 184, 54);
+}
