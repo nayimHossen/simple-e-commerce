@@ -1,4 +1,5 @@
 .cart {
+    width: 200px;
     position: sticky;
     top: 0;
     border: 2px solid goldenrod;

@@ -17,7 +17,7 @@ const Orders = () => {
     };
 
     return (
-        <div className='shop-container'>
+        <div className='order-container'>
             <div className="details-container">
                 {
                     cart.map(pd => <Review
@@ -27,7 +27,7 @@ const Orders = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart} />
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );
