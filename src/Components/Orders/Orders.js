@@ -5,8 +5,10 @@ import useProducts from '../../Hooks/useProducts';
 import Cart from '../Cart/Cart';
 import Review from '../Review/Review';
 import { removeFromDb } from '../../utilities/fakedb';
+import { useNavigate } from 'react-router-dom';
 
 const Orders = () => {
+    const navigate = useNavigate();
     const [products,] = useProducts();
     const [cart, setCart] = useCart(products);
 
@@ -27,7 +29,9 @@ const Orders = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart}>
+                    <button onClick={() => navigate('/inventory')}>Checkout</button>
+                </Cart>
             </div>
         </div>
     );
