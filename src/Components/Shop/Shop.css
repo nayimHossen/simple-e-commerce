@@ -3,6 +3,7 @@
     grid-template-columns: 4fr 2fr;
     padding: 0% 8% 0% 8%;
     padding-top: 30px;
+    grid-gap: 20px;
 }
 
 .product-container {

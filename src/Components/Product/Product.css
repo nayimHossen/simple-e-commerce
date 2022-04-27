@@ -1,7 +1,7 @@
 .product {
     width: 19rem;
     height: 460px;
-    border: 1px solid #333;
+    border: 2px solid goldenrod;
     border-radius: 8px;
     position: relative;
 }
@@ -34,11 +34,12 @@
     position: absolute;
     bottom: 0;
     border: none;
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 0px 0px 5px 5px;
     padding: 10px;
     background-color: goldenrod;
+    cursor: pointer;
 }
 
 .main-button:hover {
-    background-color: rgb(235, 184, 54);
+    background-color: rgb(175, 135, 34);
 }
