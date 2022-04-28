@@ -5,6 +5,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
     grid-gap: 20px;
+    height: calc(100vh - 100%);
 }
 
 .product-container {
