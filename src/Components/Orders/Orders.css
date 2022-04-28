@@ -3,7 +3,7 @@
 }
 
 .order-container {
-    height: calc(100vh - 80px);
+    height: calc(100vh - 100%);
     display: grid;
     grid-template-columns: 6fr 1fr;
     grid-gap: 30px;
