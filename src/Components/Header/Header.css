@@ -22,6 +22,11 @@
     padding: 8px;
 }
 
+.auth-link {
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
 
 @media (max-width: 768px) {
     .header {

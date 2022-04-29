@@ -21,8 +21,8 @@ const Header = () => {
                 <Link to="/about">About</Link>
                 {
                     user
-                        ? <button onClick={() => signOut(auth)}>Log Out</button>
-                        : <Link to="/login">Login</Link>
+                        ? <Link className='auth-link' to="" onClick={() => signOut(auth)}>Sign Out</Link>
+                        : <Link className='auth-link' to="/login">Sign in</Link>
                 }
             </div>
         </nav>
