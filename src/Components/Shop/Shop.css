@@ -23,6 +23,26 @@
     cursor: pointer;
 }
 
+.pagination button {
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+.pagination-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .selected {
+    background-color: goldenrod;
+}
+
 @media (max-width: 480px) {
     .product-container {
         grid-template-columns: 1fr;
